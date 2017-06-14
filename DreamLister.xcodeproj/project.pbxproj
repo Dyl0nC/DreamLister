@@ -13,6 +13,14 @@
 		F8ADF6FC1EF1C0B800617428 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF6FA1EF1C0B800617428 /* DreamLister.xcdatamodeld */; };
 		F8ADF6FE1EF1C0B800617428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8ADF6FD1EF1C0B800617428 /* Assets.xcassets */; };
 		F8ADF7011EF1C0B800617428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ADF6FF1EF1C0B800617428 /* LaunchScreen.storyboard */; };
+		F8ADF7101EF1CAE000617428 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF7081EF1CAE000617428 /* Store+CoreDataClass.swift */; };
+		F8ADF7111EF1CAE000617428 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF7091EF1CAE000617428 /* Store+CoreDataProperties.swift */; };
+		F8ADF7121EF1CAE000617428 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF70A1EF1CAE000617428 /* Item+CoreDataClass.swift */; };
+		F8ADF7131EF1CAE000617428 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF70B1EF1CAE000617428 /* Item+CoreDataProperties.swift */; };
+		F8ADF7141EF1CAE000617428 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF70C1EF1CAE000617428 /* Image+CoreDataClass.swift */; };
+		F8ADF7151EF1CAE000617428 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF70D1EF1CAE000617428 /* Image+CoreDataProperties.swift */; };
+		F8ADF7161EF1CAE000617428 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF70E1EF1CAE000617428 /* ItemType+CoreDataClass.swift */; };
+		F8ADF7171EF1CAE000617428 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADF70F1EF1CAE000617428 /* ItemType+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		F8ADF6FD1EF1C0B800617428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8ADF7001EF1C0B800617428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8ADF7021EF1C0B800617428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8ADF7081EF1CAE000617428 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F8ADF7091EF1CAE000617428 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F8ADF70A1EF1CAE000617428 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F8ADF70B1EF1CAE000617428 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F8ADF70C1EF1CAE000617428 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F8ADF70D1EF1CAE000617428 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F8ADF70E1EF1CAE000617428 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F8ADF70F1EF1CAE000617428 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		F8ADF6F21EF1C0B800617428 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				F8ADF7181EF1CAE800617428 /* Model */,
 				F8ADF6F31EF1C0B800617428 /* AppDelegate.swift */,
 				F8ADF6F51EF1C0B800617428 /* ViewController.swift */,
 				F8ADF6F71EF1C0B800617428 /* Main.storyboard */,
@@ -65,6 +82,29 @@
 				F8ADF6FA1EF1C0B800617428 /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		F8ADF7181EF1CAE800617428 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8ADF70A1EF1CAE000617428 /* Item+CoreDataClass.swift */,
+				F8ADF7081EF1CAE000617428 /* Store+CoreDataClass.swift */,
+				F8ADF70C1EF1CAE000617428 /* Image+CoreDataClass.swift */,
+				F8ADF70E1EF1CAE000617428 /* ItemType+CoreDataClass.swift */,
+				F8ADF7191EF1CAF100617428 /* Generated */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F8ADF7191EF1CAF100617428 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				F8ADF7091EF1CAE000617428 /* Store+CoreDataProperties.swift */,
+				F8ADF70B1EF1CAE000617428 /* Item+CoreDataProperties.swift */,
+				F8ADF70D1EF1CAE000617428 /* Image+CoreDataProperties.swift */,
+				F8ADF70F1EF1CAE000617428 /* ItemType+CoreDataProperties.swift */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8ADF7151EF1CAE000617428 /* Image+CoreDataProperties.swift in Sources */,
+				F8ADF7131EF1CAE000617428 /* Item+CoreDataProperties.swift in Sources */,
+				F8ADF7161EF1CAE000617428 /* ItemType+CoreDataClass.swift in Sources */,
+				F8ADF7121EF1CAE000617428 /* Item+CoreDataClass.swift in Sources */,
+				F8ADF7111EF1CAE000617428 /* Store+CoreDataProperties.swift in Sources */,
+				F8ADF7141EF1CAE000617428 /* Image+CoreDataClass.swift in Sources */,
 				F8ADF6F61EF1C0B800617428 /* ViewController.swift in Sources */,
+				F8ADF7171EF1CAE000617428 /* ItemType+CoreDataProperties.swift in Sources */,
+				F8ADF7101EF1CAE000617428 /* Store+CoreDataClass.swift in Sources */,
 				F8ADF6F41EF1C0B800617428 /* AppDelegate.swift in Sources */,
 				F8ADF6FC1EF1C0B800617428 /* DreamLister.xcdatamodeld in Sources */,
 			);
